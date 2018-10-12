@@ -1,0 +1,22 @@
+Dempster Shafer
+
+Seluruh proses dempster shafer ini dapat ditemukan pada Module Wizard yang berada
+pada:
+Controller:
+c:\xampp\htdocs\ci-dempster2\apps\modules\wizard\controllers\wizard.php
+
+Seluruh proses yang berhubungan dengan database ada pada Model Wizard dalam Module Wizard terdapat pada:
+c:\xampp\htdocs\ci-dempster2\apps\modules\wizard\models\wizard_model.php
+
+Semua hal yang berhubungan dengan tampilan ada di View dalam Module Wizard terdapat pada:
+c:\xampp\htdocs\ci-dempster2\apps\modules\wizard\view\
+semua view digunakan, tergantung pada kebutuhan controller
+
+
+- Proses Inferensi (Mesin Inferensi)
+1. Mesin Inferensi ==> function mesin_inferensi()
+2. Proses Inferensi==> function proses_inferensi()
+
+- Perhitungan Dempster Shafer
+1. Proses Inti (Perhitungan Inti Dempster Shafer) ==> function proses_inti() 
+2. Proses Dempster Shafer ()

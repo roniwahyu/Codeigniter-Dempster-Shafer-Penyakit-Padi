@@ -1,0 +1,28 @@
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+
+/*Checkbox*/
+.btn span.glyphicon {    			
+	opacity: 0;	
+	font-size: 20px;
+	vertical-align: middle;	
+	color: #fff;		
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+
+/*Image Checkbox*/
+.btn-radio {
+	width: 100%;
+}
+.img-radio {
+	opacity: 0.5;
+	margin-bottom: 5px;
+}
+
+.space-20 {
+    margin-top: 20px;
+}
